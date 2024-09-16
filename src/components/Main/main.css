@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+    margin-top: 50px;
+}
+
+.nike-flexer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: sticky;
+}
+
+.nike-texts h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 123px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.15px;
+    width: 600px;
+}
+
+.nike-texts p {
+    width: 526px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.nike-texts button {
+    cursor: pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+
+    padding: 16px 75px;
+    border-radius: 30px;
+    background: #FB5014;
+    border: unset;
+    box-shadow: 0px 5px 7px 0px rgba(251, 80, 20, 0.25);
+}
+
+.clicks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.clicks .firsts {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.clicks .seconds {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 18px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.clicks .thirds {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 5px;
+    border-radius: 50%;   
+    cursor: pointer;
+}
+
+.shoe2 {
+    width: 100px;
+}
